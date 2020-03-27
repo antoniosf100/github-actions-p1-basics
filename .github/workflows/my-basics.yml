@@ -1,0 +1,27 @@
+#----------------------------------
+# GitHub Actions Part 1 - Basics
+#
+# Copyright by Anton Og 2020
+#----------------------------------
+
+name: My-GitHubActions-Basics
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  my_testing:
+   runs-on: ubuntu-latest
+   
+   steps:
+     - name: Print Hello Message
+       run : Echo "Hello World from Testing job"
+     
+     
+  my_deploy :
+   runs-on: ubuntu-latest
+   
+   steps:
+     - name: Print Hello Message
+       run : Echo "Hello World from Deploy job"
