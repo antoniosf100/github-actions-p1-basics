@@ -16,7 +16,7 @@ jobs:
    
    steps:
      - name: Print Hello Message
-       run : Echo "Hello World from Testing job"
+       run : echo "Hello World from Testing job"
      
      
   my_deploy :
@@ -24,4 +24,4 @@ jobs:
    
    steps:
      - name: Print Hello Message
-       run : Echo "Hello World from Deploy job"
+       run : echo "Hello World from Deploy job"
