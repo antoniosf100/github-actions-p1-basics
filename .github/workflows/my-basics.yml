@@ -32,7 +32,7 @@ jobs:
      - name: Git clone my repo
        run : actions/chekout@v1
  
-      - name: List current folder
+     - name: List current folder
        run : ls -la
      
   my_deploy :
